@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the title of the webpage -->
+    <title>My Portfolio</title>
+    <!-- Link to the external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include the Font Awesome library for icons -->
+    <script src="https://kit.fontawesome.com/926963cdda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Hero heading -->
+            <h1>Welcome to My Portfolio</h1>
+            <!-- Hero subheading -->
+            <p>Showcasing my creativity and skills check out my work and get in touch!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <!-- About heading -->
+            <h2>About Me</h2>
+            <!-- About text -->
+            <p>I'm Syrine Fathallah and I'm a beginner in Web Development </p>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="work-content">
+            <!-- Work heading -->
+            <h2>My Work</h2>
+            <!-- Work text -->
+            <p></p>
+            <!-- Project list -->
+            <ul class="project-list">
+                <!-- Project 1 -->
+                <li>Project 1: <a href="#"></a>Project Name</a></li>
+                <!-- Project 2 -->
+                <li>Project 2: <a href="#"></a>Project Name</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="resume-content">
+            <!-- Resume heading -->
+            <h2>My Resume</h2>
+            <!-- Resume text -->
+            <p>All information about my skills, education, and work experience will be here as soon as possible</p>
+            <!-- Download resume button -->
+            <a href="link-to-your-resume.pdf" class="resume-button" target="_blank">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <!-- Contact heading -->
+            <h2>Contact Me</h2>
+            
+            <!-- Contact form -->
+            <form action="submit-form.php" method="post" class="contact-form">
+                <!-- Name input -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <!-- Email input -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <!-- Message input -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                
+                <!-- Submit button -->
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </div>        
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <!-- Copyright notice -->
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
